@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+:root {
+  --titles-font: "Sacramento", cursive;
+  --neon-text-color: #e246f0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fde7ff;
+}
+.main-container {
+  width: 90%;
+  height: 95vh;
+  margin: 15px;
+  border-radius: 15px;
+  border-color: #fde7ff;
+  box-shadow: -0.4rem -0.4rem 3rem #ef64fc, 0.4rem 0.4rem 3rem #ef64fc,
+    0 0 1rem var(--neon-text-color);
+}
+
+.main-logo-container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.main-logo {
+  margin-top: 10px;
+  width: 150px;
+}
