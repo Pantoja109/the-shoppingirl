@@ -18,13 +18,14 @@ body {
   background-color: #fde7ff;
 }
 .main-container {
+  justify-self: center;
   width: 90%;
   height: 95vh;
-  margin: 15px;
+  margin: 15px auto;
   border-radius: 15px;
   border-color: #fde7ff;
-  box-shadow: -0.4rem -0.4rem 3rem #ef64fc, 0.4rem 0.4rem 3rem #ef64fc,
-    0 0 1rem var(--neon-text-color);
+  box-shadow: -0.2rem -0.2rem 2rem var(--neon-text-color),
+    0.2rem 0.2rem 2rem var(--neon-text-color), 0 0 1rem #ffffff;
 }
 
 .main-logo-container {
